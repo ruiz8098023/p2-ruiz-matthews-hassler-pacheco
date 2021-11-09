@@ -18,3 +18,71 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
     border: 0;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;  
+}
+
+header, footer {
+    background-color: #2C292D;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+/********** Footer **********/
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer ul li a, footer a {
+    color: #FFFFFF;
+}
+
+.footer-links {
+    padding-bottom: 40px;
+}
+
+.footer-links li {
+    list-style-type: none;
+}
+
+.footer-links ul li a, .contact-us {
+    text-decoration: none;
+}
+
+.footer, .contact-us {
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resources  {
+    color: #F8991D; 
+}
+
+.get-involved  {
+    color: #6AD163;
+}
+
+.programs {
+   color: #CC66FF; 
+}
+
+.contact-info {
+    padding-top: 20px;
+}
+
+.social-media a {
+    color: #EDEDEF;
+    opacity: 0.5;
+    font-size: 40px;
+}
+
+.fab {
+    padding: 10px;
+}
