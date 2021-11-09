@@ -30,7 +30,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .resources-intro {
-    padding: 0 6%;
+    padding: 0 3%;
 }
 
 .resources-intro h1 {
@@ -213,3 +213,13 @@ font-family: 'Poppins', sans-serif;
       }
 }
 /* End 500 Min Width Media Query */
+/* Start 630 Min Width Media Query */
+@media (min-width: 630px) {
+    .resources .white-box {
+        width: 86%;
+    }
+    .resources-intro {
+        padding: 0 7%;
+    }
+}
+/* End 630 Min Width Media Query */
