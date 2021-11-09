@@ -25,6 +25,7 @@ font-family: 'Poppins', sans-serif;
 .resources main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     color: #2C292D;
     background-color: #EDEDEF;
 }
@@ -216,10 +217,79 @@ font-family: 'Poppins', sans-serif;
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
     .resources .white-box {
-        width: 86%;
+        width: 90%;
     }
     .resources-intro {
-        padding: 0 7%;
+        padding: 0 5%;
     }
 }
 /* End 630 Min Width Media Query */
+/* Start 860 Min Width Media Query */
+@media (min-width: 860px) {
+    .resource-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .resource-section-intro {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+
+    .resources section {
+        padding: 12px;
+    }
+
+    .resources .resources-intro {
+        padding: 0 5%;
+    }
+
+    .color-dots {
+        width: 175px; 
+    }
+
+    .resources article img {
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        opacity: 0.25;
+    }
+
+    .resources article {
+        margin: 2%;
+        width: 46%;
+    }
+
+    .resources-intro h1 {
+        font-size: 2.8rem;
+    }
+
+    .resources-intro p {
+        font-size: 1.3rem;
+    }
+
+    .resource-section-intro {
+        width: 96%;
+    }
+
+    .resource-section-intro h2 {
+        font-size: 1.9rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 22px 24px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .resources article div p {
+        font-size: 1rem;
+    }
+}
+/* End 860 Min Width Media Query */
