@@ -218,6 +218,8 @@ font-family: 'Poppins', sans-serif;
 @media (min-width: 630px) {
     .resources .white-box {
         width: 90%;
+        padding-bottom: 40px;
+        margin-bottom: 80px;
     }
     .resources-intro {
         padding: 0 5%;
@@ -248,13 +250,6 @@ font-family: 'Poppins', sans-serif;
 
     .color-dots {
         width: 175px; 
-    }
-
-    .resources article img {
-        width: 100%;
-        border-radius: 20px;
-        object-fit: cover;
-        opacity: 0.25;
     }
 
     .resources article {
@@ -293,3 +288,32 @@ font-family: 'Poppins', sans-serif;
     }
 }
 /* End 860 Min Width Media Query */
+/* Start 1060 Min Width Media Query */
+@media (min-width: 1060px) {
+    .resources article {
+        margin: 1.5%;
+        width: 30%;
+    }
+
+    .resources article div {
+        padding: 17px 19px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        padding-bottom: 6px;
+    }
+
+    .resources article div p {
+        font-size: .9rem;
+        padding-bottom: 7px;
+    }
+
+    .resources article div button {
+        padding: 10px 0;
+        font-size: 1.2rem;
+        width: 150px
+      }
+}
+/* End 1060 Min Width Media Query */
