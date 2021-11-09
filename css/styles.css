@@ -7,6 +7,7 @@ Purple - #CC66FF
 White (Reverse Text) - #FFFFFF
 Black (Background/Text) - #2C292D
 Grey (Background) - #EDEDEF
+Dark Grey - #807684
 
 Fonts:
 font-family: niveau-grotesk, sans-serif;
@@ -27,8 +28,24 @@ main {
     padding: 40px 5%;
     font-family: 'Poppins', sans-serif;
 }
+
 .resources-intro {
     padding: 0 3%;
+}
+
+.resources-intro h1 {
+    color: #2C292D;
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+
+.resources-intro p {
+    color: #807684;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 30px;
 }
 
 .white-box {
