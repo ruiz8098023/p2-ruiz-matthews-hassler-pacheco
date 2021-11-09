@@ -62,11 +62,6 @@ font-family: 'Poppins', sans-serif;
     margin: 0 12px;
 }
 
-.resource-section-intro img {
-    width: 60%;
-    max-width: 900px;
-}
-
 .resource-section-intro h2 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
@@ -103,13 +98,13 @@ font-family: 'Poppins', sans-serif;
 }
 
 .color-dots {
-    width: 94%;
-    max-width: 900px; 
+    width: 60%;
+    max-width: 215px; 
 }
 
 .resources article img {
     width: 100%;
-    max-width: 900px;
+    max-width: 450px;
     border-radius: 20px;
     object-fit: cover;
     opacity: 0.25;
@@ -135,7 +130,7 @@ font-family: 'Poppins', sans-serif;
     position: relative;
     overflow: hidden;
     width: 94%;
-    max-width: 900px;
+    max-width: 450px;
     border-radius: 20px;
     margin: 18px 0;
 }
@@ -154,7 +149,6 @@ font-family: 'Poppins', sans-serif;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     cursor: pointer;
     font-weight: 700;
     font-size: 1.1rem;
@@ -162,6 +156,60 @@ font-family: 'Poppins', sans-serif;
   }
 
 /* Start 340 Min Width Media Query */
-  @media (min-width: 340px) {
+@media (min-width: 340px) {
+    .resources-intro h1 {
+        font-size: 2.2rem;
+    }
 
-  }
+    .resources-intro p {
+        font-size: 1.1rem;
+    }
+
+    .resource-section-intro h2 {
+        font-size: 1.5rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 22px 24px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .resources article div p {
+        font-size: 1rem;
+    }
+}
+/* End 340 Min Width Media Query */
+/* Start 500 Min Width Media Query */
+@media (min-width: 500px) {
+    .resource-section-intro h2 {
+        font-size: 1.9rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 32px 34px;
+      }
+
+    .resources article div h3 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        padding-bottom: 15px;
+    }
+
+    .resources article div p {
+        font-size: 1.05rem;
+        padding-bottom: 15px;
+    }
+
+    .resources article div button {
+        padding: 15px 0;
+        font-size: 1.3rem;
+        width: 170px
+      }
+}
+/* End 500 Min Width Media Query */
