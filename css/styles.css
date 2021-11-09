@@ -86,3 +86,48 @@ footer ul li a, footer a {
 .fab {
     padding: 10px;
 }
+
+/********** Media Queries **********/
+
+/********** Start 800px Media Query **********/
+@media (min-width: 1000px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-links {
+        text-align: left;
+        margin: 30px;
+    }
+
+    .footer-links ul li a:hover {
+        text-decoration: underline;
+    }
+
+
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 30px;
+    }
+
+    .contact-us {
+        padding-right: 20px;
+    }
+    
+    
+    .social-media a {
+        transition: .3s;
+    }
+
+    .social-media a:hover {
+        opacity: 1;
+        transition: .3s;
+    }
+}
+
+/********** End 800px Media Query **********/
