@@ -45,14 +45,13 @@ main {
     color: #807684;
     font-weight: 400;
     font-size: 1rem;
-    padding-bottom: 30px;
 }
 
-.white-box {
+.resources .white-box {
     background-color: #FFFFFF;
     width: 96%;
     border-radius: 20px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 .resource-section-intro {
@@ -76,6 +75,13 @@ main {
     font-size: 1.2rem;
     text-align: center;
     padding: 20px 0 15px;
+}
+
+.resource-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
 }
 
 .resources article {
@@ -119,7 +125,7 @@ main {
     width: 94%;
     max-width: 900px;
     border-radius: 20px;
-    margin: 40px auto;
+    margin: 18px 0;
 }
 
 .resources article div {
