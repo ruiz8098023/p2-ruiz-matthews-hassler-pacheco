@@ -27,6 +27,7 @@ main {
 .resources main {
     padding: 40px 5%;
     font-family: 'Poppins', sans-serif;
+    color: #2C292D;
 }
 
 .resources-intro {
@@ -34,10 +35,9 @@ main {
 }
 
 .resources-intro h1 {
-    color: #2C292D;
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     padding-bottom: 10px;
 }
 
@@ -50,9 +50,32 @@ main {
 
 .white-box {
     background-color: #FFFFFF;
-    width: 94%;
+    width: 96%;
     border-radius: 20px;
     margin: auto;
+}
+
+.resource-section-intro {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 30px;
+    border-bottom: #2C292D 1px solid;
+    margin: 0 12px;
+}
+
+.resource-section-intro img {
+    width: 60%;
+    max-width: 900px;
+}
+
+.resource-section-intro h2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px 0 15px;
 }
 
 .resources article {
