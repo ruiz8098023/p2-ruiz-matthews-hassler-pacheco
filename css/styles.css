@@ -18,3 +18,32 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
     border: 0;
 }
+
+img {
+    width: 94%;
+}
+
+main {
+    background-color: #EDEDEF;
+}
+
+.resources main {
+    padding: 40px 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.resources-intro {
+    padding: 0 3%;
+}
+
+.white-box {
+    background-color: #FFFFFF;
+    width: 94%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.resources article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
