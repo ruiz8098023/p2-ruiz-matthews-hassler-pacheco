@@ -20,14 +20,13 @@ font-family: 'Poppins', sans-serif;
     border: 0;
 }
 
-main {
-    background-color: #EDEDEF;
-}
+/* Resources Page */
 
 .resources main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     color: #2C292D;
+    background-color: #EDEDEF;
 }
 
 .resources-intro {
@@ -164,3 +163,4 @@ main {
     font-size: 1.1rem;
     width: 150px
   }
+
