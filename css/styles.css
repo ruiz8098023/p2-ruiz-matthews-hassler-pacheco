@@ -20,6 +20,101 @@ font-family: 'Poppins', sans-serif;
     border: 0;
 }
 
+/* JOSSELYN'S STUFF */
+body {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: niveau-grotesk, sans-serif;
+    padding: 10px;
+}
+
+main {
+    background-color: #f2f0f3;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/****************************************** ABOUT PAGE - MOBILE VIEW ******************************************/
+
+.about-section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.history {
+    text-align: center;
+    color: white;
+    background-color: #CC66FF;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 10%;
+}
+
+#readBtn {
+    background-color: #0087DF;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 8px 20px;
+    font-family: niveau-grotesk, sans-serif;
+    color: white;
+}
+
+#more {
+    display: none;
+}
+
+.who-we-are {
+    color: white;
+    background-color: #6AD163;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 10%;
+    text-align: center;
+}
+
+.who-we-are div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.who-we-are img {
+    max-width: 60px;
+}
+
+.people-profiles {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.who-we-are p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.7em;
+    margin: 5px;
+}
+
+
+.goals {
+    color: white;
+    background-color: #0087DF;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 10%;
+}
+=======
 /* Resources Page */
 
 .resources main {
