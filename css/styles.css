@@ -20,6 +20,7 @@ font-family: 'Poppins', sans-serif;
     border: 0;
 }
 
+/* JOSSELYN'S STUFF */
 body {
     font-family: poppins, sans-serif;
     font-weight: 400;
@@ -113,3 +114,302 @@ img {
     margin: 5%;
     padding: 10%;
 }
+
+
+/* Resources Page */
+
+.resources main {
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #2C292D;
+    background-color: #EDEDEF;
+}
+
+.resources-intro {
+    padding: 0 3%;
+}
+
+.resources-intro h1 {
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+    font-size: 1.9rem;
+    padding-bottom: 10px;
+}
+
+.resources-intro p {
+    color: #807684;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.resources .white-box {
+    background-color: #FFFFFF;
+    width: 94%;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+
+.resource-section-intro {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 30px;
+    border-bottom: #2C292D 1px solid;
+    margin: 0 12px;
+}
+
+.resource-section-intro h2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px 0 15px;
+}
+
+.resource-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+    color: #FFFFFF;
+}
+
+.resource-container h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding-bottom: 5px;
+}
+
+.resource-container p {
+    font-size: .9rem;
+    padding-bottom: 10px;
+}
+
+.resources article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-dots {
+    width: 60%;
+    max-width: 215px; 
+}
+
+.resources article img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+    opacity: 0.25;
+}
+
+.orange-article {
+    background-color: #F8991D;
+}
+
+.green-article {
+    background-color: #6AD163;
+}
+
+.purple-article {
+    background-color: #CC66FF;
+}
+
+.blue-article {
+    background-color: #0087DF;
+}
+
+.resources article {
+    position: relative;
+    overflow: hidden;
+    width: 94%;
+    max-width: 450px;
+    border-radius: 20px;
+    margin: 18px 0;
+}
+
+.resources article div {
+    position: absolute;
+    padding: 16px 18px;
+  }
+
+.resources article div button {
+    border: none;
+    color: #FFFFFF;
+    background-color: #2C292D;
+    border-radius: 10px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 150px
+  }
+
+/* Start 340 Min Width Media Query */
+@media (min-width: 340px) {
+    .resources-intro h1 {
+        font-size: 2.2rem;
+    }
+
+    .resources-intro p {
+        font-size: 1.1rem;
+    }
+
+    .resource-section-intro h2 {
+        font-size: 1.5rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 22px 24px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .resources article div p {
+        font-size: 1rem;
+    }
+}
+/* End 340 Min Width Media Query */
+/* Start 500 Min Width Media Query */
+@media (min-width: 500px) {
+    .resource-section-intro h2 {
+        font-size: 1.9rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 32px 34px;
+      }
+
+    .resources article div h3 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        padding-bottom: 15px;
+    }
+
+    .resources article div p {
+        font-size: 1.05rem;
+        padding-bottom: 15px;
+    }
+
+    .resources article div button {
+        padding: 15px 0;
+        font-size: 1.3rem;
+        width: 170px
+      }
+}
+/* End 500 Min Width Media Query */
+/* Start 630 Min Width Media Query */
+@media (min-width: 630px) {
+    .resources .white-box {
+        width: 90%;
+        padding-bottom: 40px;
+        margin-bottom: 80px;
+    }
+    .resources-intro {
+        padding: 0 5%;
+    }
+}
+/* End 630 Min Width Media Query */
+/* Start 860 Min Width Media Query */
+@media (min-width: 860px) {
+    .resource-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .resource-section-intro {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+
+    .resources section {
+        padding: 12px;
+    }
+
+    .resources .resources-intro {
+        padding: 0 5%;
+    }
+
+    .color-dots {
+        width: 175px; 
+    }
+
+    .resources article {
+        margin: 2%;
+        width: 46%;
+    }
+
+    .resources-intro h1 {
+        font-size: 2.8rem;
+    }
+
+    .resources-intro p {
+        font-size: 1.3rem;
+    }
+
+    .resource-section-intro {
+        width: 96%;
+    }
+
+    .resource-section-intro h2 {
+        font-size: 1.9rem;
+        padding: 20px 0 15px;
+    }
+
+    .resources article div {
+        padding: 22px 24px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+    }
+
+    .resources article div p {
+        font-size: 1rem;
+    }
+}
+/* End 860 Min Width Media Query */
+/* Start 1060 Min Width Media Query */
+@media (min-width: 1060px) {
+    .resources article {
+        margin: 1.5%;
+        width: 30%;
+    }
+
+    .resources article div {
+        padding: 17px 19px;
+    }
+
+    .resources article div h3 {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        padding-bottom: 6px;
+    }
+
+    .resources article div p {
+        font-size: .9rem;
+        padding-bottom: 7px;
+    }
+
+    .resources article div button {
+        padding: 10px 0;
+        font-size: 1.2rem;
+        width: 150px
+      }
+}
+/* End 1060 Min Width Media Query */
