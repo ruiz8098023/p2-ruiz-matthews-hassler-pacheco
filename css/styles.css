@@ -553,7 +553,7 @@ footer ul li a, footer a {
         justify-content: center;
         align-items: center;
         position: relative;
-        right: 30px;
+        right: 20px;
     }
 
     .contact-us {
@@ -601,3 +601,25 @@ footer ul li a, footer a {
       }
 }
 /* End 1060 Min Width Media Query */
+
+/********** Start 2000px Media Query **********/
+@media (min-width: 2000px) {
+    header img {
+        width: 300px;
+    }
+    
+    .desktop-nav ul li a {
+        font-size: 25px;
+        margin: 8px;
+    }
+
+    footer img {
+        width: 300px;
+    }
+
+    .contact-info {
+        right: 0;
+    }
+}
+
+/********** End 1000px Media Query **********/
