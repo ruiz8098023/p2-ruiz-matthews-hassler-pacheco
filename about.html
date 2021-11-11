@@ -29,7 +29,7 @@
         <header class="site-header">
             <div class="wrapper site-header_wrapper">
                 <!-- Logo -->
-                <a href="index.html"><img class="horizontal-logo" src="images/logo-horizontal-white.png" alt="Horizontal Version of Kites Logo" title="Kites Logo Horizontal" width=250></a>
+                <a href="index.html"><img class="horizontal-logo" src="images/logo-horizontal-white.png" alt="Horizontal Version of Kites Logo" title="Kites Logo Horizontal"></a>
 
                 <!-- Mobile Nav-->
                 <nav id="mobile-nav">
@@ -47,10 +47,9 @@
                         <li><a class="orange"href="about.html">About</a></li>
                         <li><a class="green" href="resources.html">Resources</a></li>
                         <li><a class="purple" href="programs.html">Programs</a></li>
+                        <li><button class="donate"><a href="#">Donate</a></button></li>
                     </ul>
                 </nav>
-
-                <button class="donate">Donate</button>
             </div>
         </header>
 
@@ -60,13 +59,13 @@
             <section class="about-section">
                 <img src="images/mission-image.jpg" alt="mission-image" title="mission">
 
-                <div>
+                <div id="our-mission">
                     <h2>Our Mission</h2>
                     <p>Kids Interested in Technology, Engineering and Science (KITES) Inc, is an educational non-profit organization whose primary mission is to seek out underrepresented kids and expose them to the wonders and fascination of the sciences in order to ignite in them a life-long love of science, and by doing that, uncover the brilliance and potential that lies in every child.</p>
                 </div>
             </section>
 
-            <section class="about-section">
+            <section class="about-section" id="history">
                 <!-- Our History -->
                 <article class="history">
                     <h2>Our History</h2>
@@ -126,7 +125,7 @@
                 </article>
 
                 <!-- Our Goals -->
-                <article class="goals">
+                <article class="goals" id="our-goals">
                     <div>
                         <h2>Our Goals</h2>
                     
@@ -147,31 +146,31 @@
 
         <footer>
             <div class="flex-container">
-                <a href="index.html"><img class="stacked-logo" src="images/logo-stacked-white.png" alt="Stacked Version of Kites Logo" title="Kites Logo Stacked" width=250></a>
+                <a href="index.html"><img class="stacked-logo" src="images/logo-stacked-white.png" alt="Stacked Version of Kites Logo" title="Kites Logo Stacked"></a>
 
                 <!-- Links -->
+                <div class="footer-links">
+                    <ul>
+                        <li class="footer"><a class="about-us" href="about.html">About</a></li>
+                        <li><a href="about.html#our-mission">Our Mission</a></li>
+                        <li><a href="about.html#history">Our History</a></li>
+                        <li><a href="about.html#our-goals">Our Goals</a></li>
+                    </ul>
+                </div>
            
                 <div class="footer-links">
                     <ul>
                         <li class="footer"><a class="resources" href="resources.html">Resources</a></li>
-                        <li><a href="#">For Students</a></li>
-                        <li><a href="#">For Parents</a></li>
-                        <li><a href="#">For Teachers</a></li>
+                        <li><a href="resources.html#resources-kids">For Students</a></li>
+                        <li><a href="resources.html#resources-parents">For Parents</a></li>
+                        <li><a href="resources.html#resources-teachers">For Teachers</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-links">
-                    <ul>
-                        <li class="footer"><a class="get-involved" href="#">Get Involved</a></li>
-                        <li><a href="#">Volunteer</a></li>
-                        <li><a href="#">Join an Event</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
-                </div>
 
                 <div class="footer-links">
                     <ul>
-                        <li class="footer"><a class="programs" href="#">Programs</a></li>
+                        <li class="footer"><a class="programs" href="programs.html">Programs</a></li>
                         <li><a href="#">Science and Engineering Festival</a></li>
                         <li><a href="#">Past Festivals</a></li>
                         <li><a href="#">Pre-Festival Events</a></li>

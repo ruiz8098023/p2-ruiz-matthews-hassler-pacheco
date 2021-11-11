@@ -29,10 +29,15 @@ body {
 
 header, footer {
     background-color: #2C292D;
+    padding: 28px;
 }
 
-.desktop-nav {
+.desktop-nav, .donate {
     display: none;
+}
+
+header img, footer img {
+    width: 250px;
 }
 
 
@@ -271,7 +276,6 @@ img {
   /********** Footer **********/
 footer {
     text-align: center;
-    padding: 20px;
 }
 
 
@@ -297,11 +301,11 @@ footer ul li a, footer a {
     font-weight: bold;
 }
 
-.resources  {
+.about-us  {
     color: #F8991D; 
 }
 
-.get-involved  {
+.resources  {
     color: #6AD163;
 }
 
@@ -460,6 +464,74 @@ footer ul li a, footer a {
 
 /********** Start 1000px Media Query **********/
 @media (min-width: 1000px) {
+    /**** Header/Nav ****/
+    .site-header_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #mobile-nav {
+        display: none;
+    }
+
+    .desktop-nav, .donate {
+        display: block;
+    }
+
+    .desktop-nav ul li {
+        display: inline-block;
+        list-style-type:none;
+        font-size: 20px;
+    }
+
+
+    .desktop-nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+
+    .orange {
+        color: #F8991D; 
+    }
+
+    .green {
+        color: #6AD163; 
+    }
+
+    .purple {
+        color: #CC66FF; 
+    }
+
+    .orange:hover, .green:hover, .purple:hover {
+        text-decoration: underline;
+    }
+
+    .donate {
+        background-color: #0087DF;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .donate a {
+        color: #FFFFFF;
+    }
+
+    .donate:hover {
+        background-color: #FFFFFF;
+    }
+
+    .donate a:hover {
+        text-decoration: none;
+        color: #0087DF;
+    }
+
+
+    /**** Footer ****/
     .flex-container {
         display: flex;
         justify-content: center;
@@ -481,7 +553,7 @@ footer ul li a, footer a {
         justify-content: center;
         align-items: center;
         position: relative;
-        right: 30px;
+        right: 20px;
     }
 
     .contact-us {
@@ -530,6 +602,29 @@ footer ul li a, footer a {
 }
 /* End 1060 Min Width Media Query */
 
+<<<<<<< HEAD
+/********** Start 2000px Media Query **********/
+@media (min-width: 2000px) {
+    header img {
+        width: 300px;
+    }
+    
+    .desktop-nav ul li a {
+        font-size: 25px;
+        margin: 8px;
+    }
+
+    footer img {
+        width: 300px;
+    }
+
+    .contact-info {
+        right: 0;
+    }
+}
+
+/********** End 1000px Media Query **********/
+=======
 /*Gabriel's stuff*/
 .carousel-inner {
     position: relative;
@@ -680,3 +775,4 @@ footer ul li a, footer a {
     font-size: 1.1rem;
     width: 150px
   }
+>>>>>>> main
