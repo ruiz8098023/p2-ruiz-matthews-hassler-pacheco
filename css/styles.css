@@ -486,11 +486,13 @@ footer ul li a, footer a {
         font-size: 20px;
     }
 
+
     .desktop-nav ul li a {
         text-decoration: none;
         font-weight: bold;
         padding: 20px;
     }
+
 
     .orange {
         color: #F8991D; 
@@ -504,6 +506,10 @@ footer ul li a, footer a {
         color: #CC66FF; 
     }
 
+    .orange:hover, .green:hover, .purple:hover {
+        text-decoration: underline;
+    }
+
     .donate {
         background-color: #0087DF;
         font-size: 20px;
@@ -513,6 +519,15 @@ footer ul li a, footer a {
 
     .donate a {
         color: #FFFFFF;
+    }
+
+    .donate:hover {
+        background-color: #FFFFFF;
+    }
+
+    .donate a:hover {
+        text-decoration: none;
+        color: #0087DF;
     }
 
 
