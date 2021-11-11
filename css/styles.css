@@ -602,7 +602,6 @@ footer ul li a, footer a {
 }
 /* End 1060 Min Width Media Query */
 
-<<<<<<< HEAD
 /********** Start 2000px Media Query **********/
 @media (min-width: 2000px) {
     header img {
@@ -624,7 +623,6 @@ footer ul li a, footer a {
 }
 
 /********** End 1000px Media Query **********/
-=======
 /*Gabriel's stuff*/
 .carousel-inner {
     position: relative;
@@ -775,4 +773,3 @@ footer ul li a, footer a {
     font-size: 1.1rem;
     width: 150px
   }
->>>>>>> main
