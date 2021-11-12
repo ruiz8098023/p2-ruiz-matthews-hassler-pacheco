@@ -22,7 +22,7 @@ font-family: 'Poppins', sans-serif;
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;  
+    font-size: 18px; 
 }
 
 h1, h2, h3 {
@@ -40,7 +40,6 @@ img {
 }
 
 /**** Header ****/
-
 header, footer {
     background-color: #2C292D;
     padding: 28px;
@@ -50,10 +49,134 @@ header, footer {
     display: none;
 }
 
+header img {
+    position: relative;
+    right: 30px;
+}
+
 header img, footer img {
     width: 250px;
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/**** Hamburger Menu ****/
+  #burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    overflow: visible;
+    position: relative;
+    z-index:2;
+  }
+
+  #burger-menu span,
+  #burger-menu span:before,
+  #burger-menu span:after {
+    background: #FFF;
+    display: block;
+    height: 4px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+
+  #burger-menu span:before,
+  #burger-menu span:after {
+    content: "";
+  }
+
+  #burger-menu span {
+    right: 0px;
+    top: 13px;
+    width: 27px;
+  }
+
+  #burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 16px;
+  }
+
+  #burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 20px;
+  }
+  
+  #burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+  }
+
+  #burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+  }
+
+  #burger-menu.close span:after {
+    top: 0px;
+    left:0;
+    transform: rotate(90deg);
+    opacity:0;
+    width:0;
+  }
+  
+  #mobile-nav {
+    z-index: 1;
+    min-width:100%;
+    min-height:100%;
+    position: fixed;
+    top:0;
+    height:0;
+    visibility: hidden;
+    opacity: 0;
+    text-align:center;
+    padding-top:20px;
+    transition: all 0.3s ease-in-out;
+    margin: -28px;
+  }
+  
+  #mobile-nav.overlay{
+    visibility: visible;
+    opacity: 1;
+    padding-top: 100px;
+    background:rgba(44,41,45,0.9);
+  }
+  
+  #mobile-nav li{
+    list-style-type: none;
+  }
+
+  #mobile-nav a {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .orange {
+    color: #F8991D; 
+}
+
+.green {
+    color: #6AD163; 
+}
+
+.purple {
+    color: #CC66FF; 
+}
+
+.blue {
+    color: #0087DF; 
+}
 
 
 /****************************************** ABOUT PAGE - MOBILE VIEW ******************************************/
@@ -143,7 +266,7 @@ header img, footer img {
 
 /* Resources Page */
 
-.resources main {
+.resources-page main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -168,7 +291,7 @@ header img, footer img {
     font-size: 1rem;
 }
 
-.resources .white-box {
+.resources-page .white-box {
     background-color: #FFFFFF;
     width: 94%;
     border-radius: 20px;
@@ -213,18 +336,18 @@ header img, footer img {
     padding-bottom: 10px;
 }
 
-.resources article {
+.resources-page article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.color-dots {
+.resources-page .color-dots {
     width: 60%;
     max-width: 215px; 
 }
 
-.resources article img {
+.resources-page article img {
     width: 100%;
     max-width: 450px;
     border-radius: 20px;
@@ -248,7 +371,7 @@ header img, footer img {
     background-color: #0087DF;
 }
 
-.resources article {
+.resources-page article {
     position: relative;
     overflow: hidden;
     width: 94%;
@@ -257,12 +380,12 @@ header img, footer img {
     margin: 18px 0;
 }
 
-.resources article div {
+.resources-page article div {
     position: absolute;
     padding: 16px 18px;
   }
 
-.resources article div button {
+.resources-page article div button {
     border: none;
     color: #FFFFFF;
     background-color: #2C292D;
@@ -348,16 +471,16 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .-page article div {
         padding: 22px 24px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1rem;
     }
 }
@@ -369,22 +492,22 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 32px 34px;
       }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.5rem;
         line-height: 1.8rem;
         padding-bottom: 15px;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1.05rem;
         padding-bottom: 15px;
     }
 
-    .resources article div button {
+    .resources-page article div button {
         padding: 15px 0;
         font-size: 1.3rem;
         width: 170px
@@ -393,7 +516,7 @@ footer ul li a, footer a {
 /* End 500 Min Width Media Query */
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
-    .resources .white-box {
+    .resources-page .white-box {
         width: 90%;
         padding-bottom: 40px;
         margin-bottom: 80px;
@@ -421,19 +544,19 @@ footer ul li a, footer a {
         padding-top: 15px;
     }
 
-    .resources section {
+    .resources-page section {
         padding: 12px;
     }
 
-    .resources .resources-intro {
+    .resources-page .resources-intro {
         padding: 0 5%;
     }
 
-    .color-dots {
+    .resources-page .color-dots {
         width: 175px; 
     }
 
-    .resources article {
+    .resources-page article {
         margin: 2%;
         width: 46%;
     }
@@ -455,16 +578,16 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 22px 24px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1rem;
     }
 }
@@ -478,8 +601,13 @@ footer ul li a, footer a {
         align-items: center;
         flex-wrap: wrap;
     }
+
+    header img {
+        position: initial;
+        right: 0;
+    }
     
-    #mobile-nav {
+    #mobile-nav, #burger-menu {
         display: none;
     }
 
@@ -500,18 +628,6 @@ footer ul li a, footer a {
         padding: 20px;
     }
 
-
-    .orange {
-        color: #F8991D; 
-    }
-
-    .green {
-        color: #6AD163; 
-    }
-
-    .purple {
-        color: #CC66FF; 
-    }
 
     .orange:hover, .green:hover, .purple:hover {
         text-decoration: underline;
@@ -637,27 +753,27 @@ footer ul li a, footer a {
 
 /* Start 1060 Min Width Media Query */
 @media (min-width: 1060px) {
-    .resources article {
+    .resources-page article {
         margin: 1.5%;
         width: 30%;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 17px 19px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
         padding-bottom: 6px;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: .9rem;
         padding-bottom: 7px;
     }
 
-    .resources article div button {
+    .resources-page article div button {
         padding: 10px 0;
         font-size: 1.2rem;
         width: 150px
