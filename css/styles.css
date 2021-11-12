@@ -134,7 +134,7 @@ img {
 
 /* Resources Page */
 
-.resources main {
+.resources-page main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -159,7 +159,7 @@ img {
     font-size: 1rem;
 }
 
-.resources .white-box {
+.resources-page .white-box {
     background-color: #FFFFFF;
     width: 94%;
     border-radius: 20px;
@@ -204,18 +204,18 @@ img {
     padding-bottom: 10px;
 }
 
-.resources article {
+.resources-page article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.color-dots {
+.resources-page .color-dots {
     width: 60%;
     max-width: 215px; 
 }
 
-.resources article img {
+.resources-page article img {
     width: 100%;
     max-width: 450px;
     border-radius: 20px;
@@ -239,7 +239,7 @@ img {
     background-color: #0087DF;
 }
 
-.resources article {
+.resources-page article {
     position: relative;
     overflow: hidden;
     width: 94%;
@@ -248,12 +248,12 @@ img {
     margin: 18px 0;
 }
 
-.resources article div {
+.resources-page article div {
     position: absolute;
     padding: 16px 18px;
   }
 
-.resources article div button {
+.resources-page article div button {
     border: none;
     color: #FFFFFF;
     background-color: #2C292D;
@@ -340,16 +340,16 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .-page article div {
         padding: 22px 24px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1rem;
     }
 }
@@ -361,22 +361,22 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 32px 34px;
       }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.5rem;
         line-height: 1.8rem;
         padding-bottom: 15px;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1.05rem;
         padding-bottom: 15px;
     }
 
-    .resources article div button {
+    .resources-page article div button {
         padding: 15px 0;
         font-size: 1.3rem;
         width: 170px
@@ -385,7 +385,7 @@ footer ul li a, footer a {
 /* End 500 Min Width Media Query */
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
-    .resources .white-box {
+    .resources-page .white-box {
         width: 90%;
         padding-bottom: 40px;
         margin-bottom: 80px;
@@ -410,19 +410,19 @@ footer ul li a, footer a {
         padding-top: 15px;
     }
 
-    .resources section {
+    .resources-page section {
         padding: 12px;
     }
 
-    .resources .resources-intro {
+    .resources-page .resources-intro {
         padding: 0 5%;
     }
 
-    .color-dots {
+    .resources-page .color-dots {
         width: 175px; 
     }
 
-    .resources article {
+    .resources-page article {
         margin: 2%;
         width: 46%;
     }
@@ -444,16 +444,16 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 22px 24px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: 1rem;
     }
 }
@@ -502,27 +502,27 @@ footer ul li a, footer a {
 
 /* Start 1060 Min Width Media Query */
 @media (min-width: 1060px) {
-    .resources article {
+    .resources-page article {
         margin: 1.5%;
         width: 30%;
     }
 
-    .resources article div {
+    .resources-page article div {
         padding: 17px 19px;
     }
 
-    .resources article div h3 {
+    .resources-page article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
         padding-bottom: 6px;
     }
 
-    .resources article div p {
+    .resources-page article div p {
         font-size: .9rem;
         padding-bottom: 7px;
     }
 
-    .resources article div button {
+    .resources-page article div button {
         padding: 10px 0;
         font-size: 1.2rem;
         width: 150px
