@@ -22,19 +22,147 @@ font-family: 'Poppins', sans-serif;
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;  
+    font-size: 18px; 
 }
 
 /**** Header ****/
-
 header, footer {
     background-color: #2C292D;
+    padding: 28px;
 }
 
-.desktop-nav {
+.desktop-nav, .donate {
     display: none;
 }
 
+header img {
+    position: relative;
+    right: 30px;
+}
+
+header img, footer img {
+    width: 250px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/**** Hamburger Menu ****/
+  #burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    overflow: visible;
+    position: relative;
+    z-index:2;
+  }
+
+  #burger-menu span,
+  #burger-menu span:before,
+  #burger-menu span:after {
+    background: #FFF;
+    display: block;
+    height: 4px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+
+  #burger-menu span:before,
+  #burger-menu span:after {
+    content: "";
+  }
+
+  #burger-menu span {
+    right: 0px;
+    top: 13px;
+    width: 27px;
+  }
+
+  #burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 16px;
+  }
+
+  #burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 20px;
+  }
+  
+  #burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+  }
+
+  #burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+  }
+
+  #burger-menu.close span:after {
+    top: 0px;
+    left:0;
+    transform: rotate(90deg);
+    opacity:0;
+    width:0;
+  }
+  
+  #mobile-nav {
+    z-index: 1;
+    min-width:100%;
+    min-height:100%;
+    position: fixed;
+    top:0;
+    height:0;
+    visibility: hidden;
+    opacity: 0;
+    text-align:center;
+    padding-top:20px;
+    transition: all 0.3s ease-in-out;
+    margin: -28px;
+  }
+  
+  #mobile-nav.overlay{
+    visibility: visible;
+    opacity: 1;
+    padding-top: 100px;
+    background:rgba(44,41,45,0.9);
+  }
+  
+  #mobile-nav li{
+    list-style-type: none;
+  }
+
+  #mobile-nav a {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .orange {
+    color: #F8991D; 
+}
+
+.green {
+    color: #6AD163; 
+}
+
+.purple {
+    color: #CC66FF; 
+}
+
+.blue {
+    color: #0087DF; 
+}
 
 
 /* JOSSELYN'S STUFF */
@@ -271,7 +399,6 @@ img {
   /********** Footer **********/
 footer {
     text-align: center;
-    padding: 20px;
 }
 
 
@@ -297,11 +424,11 @@ footer ul li a, footer a {
     font-weight: bold;
 }
 
-.resources  {
+.about-us  {
     color: #F8991D; 
 }
 
-.get-involved  {
+.resources  {
     color: #6AD163;
 }
 
@@ -460,6 +587,67 @@ footer ul li a, footer a {
 
 /********** Start 1000px Media Query **********/
 @media (min-width: 1000px) {
+    /**** Header/Nav ****/
+    .site-header_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    header img {
+        position: initial;
+        right: 0;
+    }
+    
+    #mobile-nav, #burger-menu {
+        display: none;
+    }
+
+    .desktop-nav, .donate {
+        display: block;
+    }
+
+    .desktop-nav ul li {
+        display: inline-block;
+        list-style-type:none;
+        font-size: 20px;
+    }
+
+
+    .desktop-nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+
+    .orange:hover, .green:hover, .purple:hover {
+        text-decoration: underline;
+    }
+
+    .donate {
+        background-color: #0087DF;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .donate a {
+        color: #FFFFFF;
+    }
+
+    .donate:hover {
+        background-color: #FFFFFF;
+    }
+
+    .donate a:hover {
+        text-decoration: none;
+        color: #0087DF;
+    }
+
+
+    /**** Footer ****/
     .flex-container {
         display: flex;
         justify-content: center;
@@ -481,7 +669,7 @@ footer ul li a, footer a {
         justify-content: center;
         align-items: center;
         position: relative;
-        right: 30px;
+        right: 20px;
     }
 
     .contact-us {
@@ -530,6 +718,27 @@ footer ul li a, footer a {
 }
 /* End 1060 Min Width Media Query */
 
+/********** Start 2000px Media Query **********/
+@media (min-width: 2000px) {
+    header img {
+        width: 300px;
+    }
+    
+    .desktop-nav ul li a {
+        font-size: 25px;
+        margin: 8px;
+    }
+
+    footer img {
+        width: 300px;
+    }
+
+    .contact-info {
+        right: 0;
+    }
+}
+
+/********** End 2000px Media Query **********/
 /*Gabriel's stuff*/
 .carousel-inner {
     position: relative;

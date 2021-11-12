@@ -29,17 +29,23 @@
         <header class="site-header">
             <div class="wrapper site-header_wrapper">
                 <!-- Logo -->
-                <a href="index.html"><img class="horizontal-logo" src="images/logo-horizontal-white.png" alt="Horizontal Version of Kites Logo" title="Kites Logo Horizontal" width=250></a>
+                <a href="index.html"><img class="horizontal-logo" src="images/logo-horizontal-white.png" alt="Horizontal Version of Kites Logo" title="Kites Logo Horizontal"></a>
 
                 <!-- Mobile Nav-->
-                <nav id="mobile-nav">
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="resources.html">Resources</a></li>
-                        <li><a href="programs.html">Programs</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
-                </nav>
+                <div id="burger-menu">
+                    <span></span>
+                </div>
+
+                <div id="mobile-nav">
+                    <nav >
+                        <ul>
+                            <li><a class="orange" href="about.html">About</a></li>
+                            <li><a class="green" href="resources.html">Resources</a></li>
+                            <li><a class="purple" href="programs.html">Programs</a></li>
+                            <li><a class="blue" href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=35-2408447&ref_=smi_ext_ch_35-2408447_cl" target="_blank">Donate</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
                 <!-- Desktop Nav-->
                 <nav class="desktop-nav">
@@ -47,40 +53,39 @@
                         <li><a class="orange"href="about.html">About</a></li>
                         <li><a class="green" href="resources.html">Resources</a></li>
                         <li><a class="purple" href="programs.html">Programs</a></li>
+                        <li><button class="donate"><a href="https://smile.amazon.com/gp/chpf/homepage/ref=smi_chpf_redirect?ie=UTF8&ein=35-2408447&ref_=smi_ext_ch_35-2408447_cl" target="_blank">Donate</a></button></li>
                     </ul>
                 </nav>
-
-                <button class="donate">Donate</button>
             </div>
         </header>
 
         <footer>
             <div class="flex-container">
-                <a href="index.html"><img class="stacked-logo" src="images/logo-stacked-white.png" alt="Stacked Version of Kites Logo" title="Kites Logo Stacked" width=250></a>
+                <a href="index.html"><img class="stacked-logo" src="images/logo-stacked-white.png" alt="Stacked Version of Kites Logo" title="Kites Logo Stacked"></a>
 
                 <!-- Links -->
+                <div class="footer-links">
+                    <ul>
+                        <li class="footer"><a class="about-us" href="about.html">About</a></li>
+                        <li><a href="about.html#our-mission">Our Mission</a></li>
+                        <li><a href="about.html#history">Our History</a></li>
+                        <li><a href="about.html#our-goals">Our Goals</a></li>
+                    </ul>
+                </div>
            
                 <div class="footer-links">
                     <ul>
                         <li class="footer"><a class="resources" href="resources.html">Resources</a></li>
-                        <li><a href="#">For Students</a></li>
-                        <li><a href="#">For Parents</a></li>
-                        <li><a href="#">For Teachers</a></li>
+                        <li><a href="resources.html#resources-kids">For Students</a></li>
+                        <li><a href="resources.html#resources-parents">For Parents</a></li>
+                        <li><a href="resources.html#resources-teachers">For Teachers</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-links">
-                    <ul>
-                        <li class="footer"><a class="get-involved" href="#">Get Involved</a></li>
-                        <li><a href="#">Volunteer</a></li>
-                        <li><a href="#">Join an Event</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
-                </div>
 
                 <div class="footer-links">
                     <ul>
-                        <li class="footer"><a class="programs" href="#">Programs</a></li>
+                        <li class="footer"><a class="programs" href="programs.html">Programs</a></li>
                         <li><a href="#">Science and Engineering Festival</a></li>
                         <li><a href="#">Past Festivals</a></li>
                         <li><a href="#">Pre-Festival Events</a></li>
@@ -101,7 +106,6 @@
                 </div>
            
         </footer>
-        
         <script src="index.js"></script>
     </body>
 </html>
