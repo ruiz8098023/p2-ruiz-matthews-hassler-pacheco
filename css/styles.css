@@ -134,7 +134,8 @@ img {
 
 /********************** Resources Page **********************/
 
-.resources main {
+.resources main,
+.programs-page main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -142,31 +143,36 @@ img {
     background-color: #EDEDEF;
 }
 
-.resources-intro {
+.resources-intro,
+.programs-intro {
     padding: 0 3%;
 }
 
-.resources-intro h1 {
+.resources-intro h1,
+.programs-intro h1 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     font-size: 1.9rem;
     padding-bottom: 10px;
 }
 
-.resources-intro p {
+.resources-intro p,
+.programs-intro p {
     color: #807684;
     font-weight: 400;
     font-size: 1rem;
 }
 
-.resources .white-box {
+.resources .white-box,
+.programs-page .white-box {
     background-color: #FFFFFF;
     width: 94%;
     border-radius: 20px;
     margin: 40px auto;
 }
 
-.resource-section-intro {
+.resource-section-intro,
+.program-section-intro  {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -175,7 +181,8 @@ img {
     margin: 0 12px;
 }
 
-.resource-section-intro h2 {
+.resource-section-intro h2,
+.program-section-intro h2 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -210,7 +217,8 @@ img {
     align-items: center;
 }
 
-.color-dots {
+.resources .color-dots,
+.programs-page .color-dots {
     width: 60%;
     max-width: 215px; 
 }
