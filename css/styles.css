@@ -27,10 +27,10 @@ body {
     font-style: normal;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-family: niveau-grotesk, sans-serif;
     padding: 10px;
-}
+} */
 
 main {
     background-color: #f2f0f3;
@@ -81,29 +81,37 @@ img {
     text-align: center;
 }
 
-.who-we-are div {
+.people {
     display: flex;
     flex-flow: row wrap;
+    text-align: center;
 }
 
 .who-we-are img {
     max-width: 60px;
+    margin: 10px;
 }
 
-.people-profiles {
-    display: flex;
-    flex-direction: column;
+.people-profile {
+    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
     width: 100%;
     max-width: 50%;
-    text-align: center;
 }
 
-.who-we-are p {
+.people-profile p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 0.7em;
-    margin: 5px;
+}
+
+.people-profile p:last-of-type {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.7em;
 }
 
 
@@ -320,6 +328,9 @@ img {
     .resources-intro {
         padding: 0 5%;
     }
+
+
+    /* ABOUT PAGE QUERY COULD GO HERE... */
 }
 /* End 630 Min Width Media Query */
 /* Start 860 Min Width Media Query */
