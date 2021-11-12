@@ -133,7 +133,7 @@ header img, footer img {
     visibility: visible;
     opacity: 1;
     padding-top: 100px;
-    background:rgba(44,41,45,0.5);
+    background:rgba(44,41,45,0.9);
   }
   
   #mobile-nav li{
@@ -141,12 +141,28 @@ header img, footer img {
   }
 
   #mobile-nav a {
-    color:#fff;
     display: block;
     font-size: 32px;
     margin-bottom: 30px;
     text-decoration: none;
+    font-weight: bold;
   }
+
+  .orange {
+    color: #F8991D; 
+}
+
+.green {
+    color: #6AD163; 
+}
+
+.purple {
+    color: #CC66FF; 
+}
+
+.blue {
+    color: #0087DF; 
+}
 
 
 /* JOSSELYN'S STUFF */
@@ -600,18 +616,6 @@ footer ul li a, footer a {
         padding: 20px;
     }
 
-
-    .orange {
-        color: #F8991D; 
-    }
-
-    .green {
-        color: #6AD163; 
-    }
-
-    .purple {
-        color: #CC66FF; 
-    }
 
     .orange:hover, .green:hover, .purple:hover {
         text-decoration: underline;
