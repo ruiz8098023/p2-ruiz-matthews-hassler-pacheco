@@ -594,6 +594,11 @@ footer ul li a, footer a {
         align-items: center;
         flex-wrap: wrap;
     }
+
+    header img {
+        position: initial;
+        right: 0;
+    }
     
     #mobile-nav, #burger-menu {
         display: none;
