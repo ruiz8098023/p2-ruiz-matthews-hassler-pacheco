@@ -25,6 +25,21 @@ body {
     font-size: 18px;  
 }
 
+h1, h2, h3 {
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+main {
+    background-color: #f2f0f3;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
 /**** Header ****/
 
 header, footer {
@@ -41,27 +56,6 @@ header img, footer img {
 }
 
 
-
-/* JOSSELYN'S STUFF */
-body {
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* h1, h2, h3 {
-    font-family: niveau-grotesk, sans-serif;
-    padding: 10px;
-} */
-
-main {
-    background-color: #f2f0f3;
-}
-
-img {
-    border-radius: 10px;
-    width: 100%;
-}
 
 /****************************************** ABOUT PAGE - MOBILE VIEW ******************************************/
 
@@ -83,11 +77,13 @@ img {
 
 #readBtn {
     background-color: #0087DF;
-    border-radius: 5px;
     margin: 30px;
-    padding: 8px 20px;
     font-family: niveau-grotesk, sans-serif;
+    font-weight: bold;
     color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 #more {
@@ -539,6 +535,63 @@ footer ul li a, footer a {
     .donate a:hover {
         text-decoration: none;
         color: #0087DF;
+    }
+
+
+    /**** About Page - Desktop View ****/
+
+    .about-section:first-child {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-section img {
+        border-radius: 10px;
+        padding: 15px;
+        width: 45%;
+    }
+
+    .our-mission {
+        width: 40%;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .who-we-are img {
+        max-width: 160px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .people-profile {
+        text-align: center;
+        width: 100%;
+        max-width: 25%;
+    }
+
+
+    .goals {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        padding: 10%;
+    }
+
+    .goals div {
+        width: 50%;
+        padding: 15px;
+    }
+
+    .goals img {
+        width: 45%;
     }
 
 
