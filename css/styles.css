@@ -274,8 +274,6 @@ header img, footer img {
 }
 
 /********************** Programs Page **********************/
-/* Blue - #0087DF
-Purple - #CC66FF */
 .activity-content {
     text-align: center;
     padding: 20px 0;
@@ -295,6 +293,11 @@ Purple - #CC66FF */
     font-size: 1.2rem;
     width: 280px;
     margin-top: 15px;
+  }
+
+  #activity-button:hover {
+    color: #FFFFFF;
+    background-color: #2C292D;
   }
 
 .programs-page h6 {
