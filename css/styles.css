@@ -186,6 +186,10 @@ header img, footer img {
     padding: 5%;
 }
 
+.about-section h2 {
+    padding: 20px 0;
+}
+
 .about-section img {
     border-radius: 20px;
     width: 100%;
@@ -220,26 +224,27 @@ header img, footer img {
     background-color: #6AD163;
     border-radius: 20px;
     margin: 5%;
-    padding: 10%;
+    padding: 5%;
     text-align: center;
 }
 
 .people {
+    text-align: center;
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
     justify-content: center;
 }
 
 
 .people-profile {
     text-align: center;
-    width: 100%;
     max-width: 50%;
+    text-align: center;
 }
 
 .people-profile img {
-    max-width: 70px;
+    width: 100%;
+    max-width: 140px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -249,14 +254,14 @@ header img, footer img {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 .people-profile p:last-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 
@@ -781,59 +786,9 @@ footer ul li a, footer a {
     }
 
 
-    /**** About Page - Desktop View ****/
-
-    .about-section:first-child {
-        background-color: white;
-        border-radius: 10px;
-        margin: 5%;
-        padding: 5%;
-        display: flex;
-    }
-
-    .about-section:first-child img {
-        border-radius: 20px;
-        padding: 15px;
-        width: 45%;
-    }
-
-    .our-mission div {
-        width: 50%;
-        padding: 100px 0;
-    }
-
-    .people {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        justify-content: center;
-    }
     
-    .people-profile img {
-        max-width: 175px;
-        margin: 10px;
-        padding: 5px;
-        border-radius: 10px;
-    }
-    
-    .people-profile {
-        text-align: center;
-        width: 100%;
-        max-width: 25%;
-    }
-
-
-    
-
 
     /**** Footer ****/
-    .programs-footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-      }
-      
     .flex-container {
         display: flex;
         justify-content: center;
@@ -876,6 +831,62 @@ footer ul li a, footer a {
 
 /* Start 1060 Min Width Media Query */
 @media (min-width: 1060px) {
+
+    /**** About Page - Desktop View ****/
+
+    .about-section:first-child {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+    .about-section:first-child img {
+        border-radius: 20px;
+        width: 50%;
+        height:fit-content;
+    }
+
+    .our-mission {
+        width: 50%;
+        padding: 0 0 0 30px;
+    }
+
+    .our-mission p {
+        font-size: 0.9em;
+    }
+    
+    .people-profile {
+        text-align: center;
+        width: 100%;
+        max-width: 25%;
+        padding: 0 5px;
+    }
+
+    .people-profile img {
+        max-width: 300px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+    .people-profile p:first-of-type {
+        font-size: 0.7em;
+    }
+    
+    .people-profile p:last-of-type {
+        font-size: 0.6em;
+    }
+    
+    
+   
+
+
+    /**** Resources Page - Desktop View ****/
+
     .resources-page article {
         margin: 1.5%;
         width: 30%;
