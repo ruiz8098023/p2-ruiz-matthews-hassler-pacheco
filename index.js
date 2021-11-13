@@ -45,4 +45,17 @@ function readMore() {
     }
   }
 
-  
+  // Activity API
+var buttonEl = document.getElementById('activity-button')
+var activityEl = document.getElementById('activity')
+
+buttonEl.onclick = function(){
+  fetch('https://www.boredapi.com/api/activity/')
+  .then(function(response) {
+    return response.json()
+  })
+  .then(function(response) {
+    activityEl.textContent = response.activity
+  })
+}
+
