@@ -283,6 +283,7 @@ header img, footer img {
     border: none;
     color: #FFFFFF;
     background-color: #0087DF;
+    transition: 0.3s;
     border-radius: 10px;
     padding: 12px 0;
     text-align: center;
@@ -296,8 +297,9 @@ header img, footer img {
   }
 
   #activity-button:hover {
-    color: #FFFFFF;
-    background-color: #2C292D;
+    opacity: 1;
+    background-color: #CC66FF;
+    transition: 0.3s;
   }
 
 .programs-page h6 {
