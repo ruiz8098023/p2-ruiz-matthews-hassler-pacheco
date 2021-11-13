@@ -827,6 +827,13 @@ footer ul li a, footer a {
 
 
     /**** Footer ****/
+    .programs-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      
     .flex-container {
         display: flex;
         justify-content: center;
