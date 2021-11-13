@@ -822,8 +822,10 @@ footer ul li a, footer a {
         max-width: 25%;
     }
 
-
-    
+    /**** Programs ****/
+    .programs-page {
+        background-color: #EDEDEF;
+    }
 
 
     /**** Footer ****/
