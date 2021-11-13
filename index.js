@@ -25,4 +25,37 @@ function readMore() {
     }
   }
 
-  
+  // Pop-Up 
+  var modal = document.getElementById("donate-modal");
+  var btn = document.getElementById("donate-btn");
+  var span = document.getElementsByClassName("close")[0];
+
+
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  // Activity API
+var buttonEl = document.getElementById('activity-button')
+var activityEl = document.getElementById('activity')
+
+buttonEl.onclick = function(){
+  fetch('https://www.boredapi.com/api/activity/')
+  .then(function(response) {
+    return response.json()
+  })
+  .then(function(response) {
+    activityEl.textContent = response.activity
+  })
+}
+
