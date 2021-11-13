@@ -34,10 +34,7 @@ main {
     background-color: #f2f0f3;
 }
 
-img {
-    border-radius: 10px;
-    width: 100%;
-}
+
 
 /**** Header ****/
 header, footer {
@@ -183,16 +180,21 @@ header img, footer img {
 
 .about-section {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 5%;
+}
+
+.about-section img {
+    border-radius: 20px;
+    width: 100%;
 }
 
 .history {
     text-align: center;
     color: white;
     background-color: #CC66FF;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
 }
@@ -215,7 +217,7 @@ header img, footer img {
 .who-we-are {
     color: white;
     background-color: #6AD163;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
     text-align: center;
@@ -230,7 +232,7 @@ header img, footer img {
 .people-profile img {
     max-width: 60px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .people-profile {
@@ -259,7 +261,7 @@ header img, footer img {
 .goals {
     color: white;
     background-color: #0087DF;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
 }
@@ -780,17 +782,17 @@ footer ul li a, footer a {
         margin: 5%;
         padding: 5%;
         display: flex;
-        flex-direction: row;
     }
 
-    .about-section img {
-        border-radius: 10px;
+    .about-section:first-child img {
+        border-radius: 20px;
         padding: 15px;
         width: 45%;
     }
 
     .our-mission {
         width: 40%;
+        padding: 100px 0;
     }
 
     .people {
@@ -802,6 +804,7 @@ footer ul li a, footer a {
     .people-profile img {
         max-width: 200px;
         margin: 10px;
+        border-radius: 10px;
     }
     
     .people-profile {
@@ -819,12 +822,13 @@ footer ul li a, footer a {
     }
 
     .goals div {
-        width: 50%;
-        padding: 15px;
+        width: 45%;
+        padding: 60px 15px;
     }
 
     .goals img {
-        width: 45%;
+        width: 50%;
+        padding: 0 10px;
     }
 
 
@@ -1025,7 +1029,6 @@ footer ul li a, footer a {
     padding: 18px 0;
     color: #FFFFFF;
     justify-content: space-around;
-}
 }
 
 .volunteer-container h3 {
