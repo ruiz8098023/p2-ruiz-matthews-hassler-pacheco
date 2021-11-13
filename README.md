@@ -10,6 +10,7 @@
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Position Text Over an Image](https://www.w3schools.com/howto/howto_css_image_text.asp)
 * [CSS: Image Color Overlay](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio)
+* [Sticky Footer](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/)
 
 ### Git
 * [Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
