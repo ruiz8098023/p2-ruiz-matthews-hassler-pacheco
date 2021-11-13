@@ -268,7 +268,7 @@ Purple - #CC66FF */
     padding: 20px 0;
 }
 
-.programs-page button {
+#activity-button {
     border: none;
     color: #FFFFFF;
     background-color: #0087DF;
@@ -962,7 +962,6 @@ footer ul li a, footer a {
     padding: 18px 0;
     color: #FFFFFF;
     justify-content: space-around;
-}
 }
 
 .volunteer-container h3 {
