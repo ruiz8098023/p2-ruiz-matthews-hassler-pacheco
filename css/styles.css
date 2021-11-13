@@ -31,7 +31,8 @@ h1, h2, h3 {
 }
 
 main {
-    background-color: #f2f0f3;
+    background-color: #EDEDEF;
+    padding: 40px 0;
 }
 
 
@@ -227,34 +228,35 @@ header img, footer img {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    justify-content: center;
 }
 
-.people-profile img {
-    max-width: 60px;
-    margin: 10px;
-    border-radius: 20px;
-}
 
 .people-profile {
     text-align: center;
-    /* display: flex;
-    flex-direction: column; */
     width: 100%;
     max-width: 50%;
 }
+
+.people-profile img {
+    max-width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 
 .people-profile p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 
 .people-profile p:last-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 
 
@@ -264,6 +266,11 @@ header img, footer img {
     border-radius: 20px;
     margin: 5%;
     padding: 10%;
+}
+
+.goals img {
+    width: 100%;
+    margin: 5% 0;
 }
 
 /********************** Programs Page **********************/
@@ -790,8 +797,8 @@ footer ul li a, footer a {
         width: 45%;
     }
 
-    .our-mission {
-        width: 40%;
+    .our-mission div {
+        width: 50%;
         padding: 100px 0;
     }
 
@@ -799,11 +806,13 @@ footer ul li a, footer a {
         display: flex;
         flex-direction: row;
         text-align: center;
+        justify-content: center;
     }
     
     .people-profile img {
-        max-width: 200px;
+        max-width: 175px;
         margin: 10px;
+        padding: 5px;
         border-radius: 10px;
     }
     
@@ -814,22 +823,7 @@ footer ul li a, footer a {
     }
 
 
-    .goals {
-        display: flex;
-        flex-direction: row;
-        margin: 5%;
-        padding: 10%;
-    }
-
-    .goals div {
-        width: 45%;
-        padding: 60px 15px;
-    }
-
-    .goals img {
-        width: 50%;
-        padding: 0 10px;
-    }
+    
 
 
     /**** Footer ****/
@@ -903,6 +897,32 @@ footer ul li a, footer a {
 }
 /* End 1060 Min Width Media Query */
 
+/********** Start 1200px Media Query **********/
+@media (min-width: 1200px) {
+    /* About Page - Desktop View - Goals Section */
+
+    .goals {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        padding: 10%;
+    }
+
+    .goals div {
+        width: 45%;
+        padding: 60px 15px;
+    }
+
+    .goals img {
+        width: 100%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+}
+/* End 1200 Min Width Media Query */
+
+
+
 /********** Start 2000px Media Query **********/
 @media (min-width: 2000px) {
     header img {
@@ -921,6 +941,7 @@ footer ul li a, footer a {
     .contact-info {
         right: 0;
     }
+
 }
 
 /********** End 2000px Media Query **********/
