@@ -268,7 +268,7 @@ Purple - #CC66FF */
     padding: 20px 0;
 }
 
-.programs-page button {
+.programs-page .activity-button {
     border: none;
     color: #FFFFFF;
     background-color: #0087DF;
