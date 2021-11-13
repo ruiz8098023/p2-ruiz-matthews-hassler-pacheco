@@ -45,4 +45,9 @@ function readMore() {
     }
   }
 
-  
+  // Activity API
+var buttonEl = document.getElementById('activity-button')
+var activityEl = document.getElementById('activity')
+
+
+
