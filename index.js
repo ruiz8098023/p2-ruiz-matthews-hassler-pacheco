@@ -55,7 +55,7 @@ buttonEl.onclick = function(){
     return response.json()
   })
   .then(function(response) {
-    renderActivity(res.results)
+    activityEl.textContent = response.activity
   })
 }
 
