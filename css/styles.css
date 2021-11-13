@@ -25,6 +25,18 @@ body {
     font-size: 18px; 
 }
 
+h1, h2, h3 {
+    font-family: niveau-grotesk, sans-serif;
+    font-weight: 900;
+}
+
+main {
+    background-color: #EDEDEF;
+    padding: 40px 0;
+}
+
+
+
 /**** Header ****/
 header, footer {
     background-color: #2C292D;
@@ -165,52 +177,38 @@ header img, footer img {
 }
 
 
-/* JOSSELYN'S STUFF */
-body {
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1, h2, h3 {
-    font-family: niveau-grotesk, sans-serif;
-    padding: 10px;
-}
-
-main {
-    background-color: #f2f0f3;
-}
-
-img {
-    border-radius: 10px;
-    width: 100%;
-}
-
 /****************************************** ABOUT PAGE - MOBILE VIEW ******************************************/
 
 .about-section {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 5%;
+}
+
+.about-section img {
+    border-radius: 20px;
+    width: 100%;
 }
 
 .history {
     text-align: center;
     color: white;
     background-color: #CC66FF;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
 }
 
 #readBtn {
     background-color: #0087DF;
-    border-radius: 5px;
     margin: 30px;
-    padding: 8px 20px;
     font-family: niveau-grotesk, sans-serif;
+    font-weight: bold;
     color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 #more {
@@ -220,44 +218,59 @@ img {
 .who-we-are {
     color: white;
     background-color: #6AD163;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
     text-align: center;
 }
 
-.who-we-are div {
+.people {
     display: flex;
     flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
 }
 
-.who-we-are img {
-    max-width: 60px;
-}
 
-.people-profiles {
-    display: flex;
-    flex-direction: column;
+.people-profile {
+    text-align: center;
     width: 100%;
     max-width: 50%;
-    text-align: center;
 }
 
-.who-we-are p {
+.people-profile img {
+    max-width: 70px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.people-profile p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.7em;
-    margin: 5px;
+    font-size: 0.5em;
+}
+
+.people-profile p:last-of-type {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.5em;
 }
 
 
 .goals {
     color: white;
     background-color: #0087DF;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5%;
     padding: 10%;
+}
+
+.goals img {
+    width: 100%;
+    margin: 5% 0;
 }
 
 /********************** Programs Page **********************/
@@ -563,6 +576,9 @@ footer ul li a, footer a {
     .programs-intro {
         padding: 0 5%;
     }
+
+
+    /* ABOUT PAGE QUERY COULD GO HERE... */
 }
 /* End 630 Min Width Media Query */
 
@@ -765,6 +781,51 @@ footer ul li a, footer a {
     }
 
 
+    /**** About Page - Desktop View ****/
+
+    .about-section:first-child {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+    }
+
+    .about-section:first-child img {
+        border-radius: 20px;
+        padding: 15px;
+        width: 45%;
+    }
+
+    .our-mission div {
+        width: 50%;
+        padding: 100px 0;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .people-profile img {
+        max-width: 175px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .people-profile {
+        text-align: center;
+        width: 100%;
+        max-width: 25%;
+    }
+
+
+    
+
+
     /**** Footer ****/
     .programs-footer {
         position: fixed;
@@ -843,6 +904,32 @@ footer ul li a, footer a {
 }
 /* End 1060 Min Width Media Query */
 
+/********** Start 1200px Media Query **********/
+@media (min-width: 1200px) {
+    /* About Page - Desktop View - Goals Section */
+
+    .goals {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        padding: 10%;
+    }
+
+    .goals div {
+        width: 45%;
+        padding: 60px 15px;
+    }
+
+    .goals img {
+        width: 100%;
+        max-width: 50%;
+        padding: 0 10px;
+    }
+}
+/* End 1200 Min Width Media Query */
+
+
+
 /********** Start 2000px Media Query **********/
 @media (min-width: 2000px) {
     header img {
@@ -861,6 +948,7 @@ footer ul li a, footer a {
     .contact-info {
         right: 0;
     }
+
 }
 
 /********** End 2000px Media Query **********/
