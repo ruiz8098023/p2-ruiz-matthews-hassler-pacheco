@@ -830,20 +830,14 @@ footer ul li a, footer a {
     /**** Programs ****/
     .programs-page {
         background-color: #EDEDEF;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
     }
 
     .programs-main {
-        padding-bottom: 140px;
+        flex: 1;
     }
-
-
-    /**** Footer ****/
-    .programs-footer {
-        position: fixed;
-        box-sizing: border-box;
-        bottom: 0;
-        width: 100%;
-      }
       
     .flex-container {
         display: flex;
