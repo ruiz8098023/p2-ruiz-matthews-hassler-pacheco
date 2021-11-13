@@ -462,20 +462,21 @@ footer ul li a, footer a {
 
 /* Start 340 Min Width Media Query */
 @media (min-width: 340px) {
-    .resources-intro h1 {
+    .resources-intro h1,
+    .programs-intro h1 {
         font-size: 2.2rem;
     }
 
-    .resources-intro p {
+    .programs-intro p {
         font-size: 1.1rem;
     }
 
-    .resource-section-intro h2 {
+    .program-section-intro h2 {
         font-size: 1.5rem;
         padding: 20px 0 15px;
     }
 
-    .-page article div {
+    .resources-page article div {
         padding: 22px 24px;
     }
 
@@ -491,7 +492,8 @@ footer ul li a, footer a {
 /* End 340 Min Width Media Query */
 /* Start 500 Min Width Media Query */
 @media (min-width: 500px) {
-    .resource-section-intro h2 {
+    .resource-section-intro h2,
+    .programs-section-intro h2 {
         font-size: 1.9rem;
         padding: 20px 0 15px;
     }
@@ -520,12 +522,14 @@ footer ul li a, footer a {
 /* End 500 Min Width Media Query */
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
-    .resources-page .white-box {
+    .resources-page .white-box,
+    .programs-page .white-box {
         width: 90%;
         padding-bottom: 40px;
         margin-bottom: 80px;
     }
-    .resources-intro {
+    .resources-intro,
+    .programs-intro {
         padding: 0 5%;
     }
 }
@@ -539,21 +543,25 @@ footer ul li a, footer a {
         justify-content: space-between;
     }
 
-    .resource-section-intro {
+    .resource-section-intro,
+    .program-section-intro {
         flex-direction: row;
         justify-content: space-between;
         padding-top: 15px;
     }
 
-    .resources-page section {
+    .resources-page section,
+    .programs-page section {
         padding: 12px;
     }
 
-    .resources-page .resources-intro {
+    .resources-page .resources-intro,
+    .programs-page .programs-intro {
         padding: 0 5%;
     }
 
-    .resources-page .color-dots {
+    .resources-page .color-dots,
+    .programs-page .color-dots {
         width: 175px; 
     }
 
@@ -562,19 +570,23 @@ footer ul li a, footer a {
         width: 46%;
     }
 
-    .resources-intro h1 {
+    .resources-intro h1,
+    .programs-intro h1 {
         font-size: 2.8rem;
     }
 
-    .resources-intro p {
+    .resources-intro p,
+    .programs-intro p {
         font-size: 1.3rem;
     }
 
-    .resource-section-intro {
+    .resource-section-intro,
+    .program-section-intro {
         width: 96%;
     }
 
-    .resource-section-intro h2 {
+    .resource-section-intro h2,
+    .program-section-intro h2 {
         font-size: 1.9rem;
         padding: 20px 0 15px;
     }
