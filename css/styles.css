@@ -827,11 +827,15 @@ footer ul li a, footer a {
         background-color: #EDEDEF;
     }
 
+    .programs-main {
+        padding-bottom: 140px;
+    }
+
 
     /**** Footer ****/
     .programs-footer {
         position: fixed;
-        left: 0;
+        box-sizing: border-box;
         bottom: 0;
         width: 100%;
       }
