@@ -260,9 +260,41 @@ img {
     padding: 10%;
 }
 
-/* Resources Page */
+/********************** Programs Page **********************/
+/* Blue - #0087DF
+Purple - #CC66FF */
+.activity-content {
+    text-align: center;
+    padding: 20px 0;
+}
 
-.resources-page main {
+.programs-page button {
+    border: none;
+    color: #FFFFFF;
+    background-color: #0087DF;
+    border-radius: 10px;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 280px;
+    margin-top: 15px;
+  }
+
+.programs-page h6 {
+    font-size: 1.2rem;
+    padding: 20px 0 10px;
+}
+
+/********************** Programs Page **********************/
+
+/********************** Resources Page **********************/
+
+.resources-page main,
+.programs-page main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -270,31 +302,36 @@ img {
     background-color: #EDEDEF;
 }
 
-.resources-intro {
+.resources-intro,
+.programs-intro {
     padding: 0 3%;
 }
 
-.resources-intro h1 {
+.resources-intro h1,
+.programs-intro h1 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     font-size: 1.9rem;
     padding-bottom: 10px;
 }
 
-.resources-intro p {
+.resources-intro p,
+.programs-intro p {
     color: #807684;
     font-weight: 400;
     font-size: 1rem;
 }
 
-.resources-page .white-box {
+.resources-page .white-box,
+.programs-page .white-box {
     background-color: #FFFFFF;
     width: 94%;
     border-radius: 20px;
     margin: 40px auto;
 }
 
-.resource-section-intro {
+.resource-section-intro,
+.program-section-intro  {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -303,7 +340,8 @@ img {
     margin: 0 12px;
 }
 
-.resource-section-intro h2 {
+.resource-section-intro h2,
+.program-section-intro h2 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -338,7 +376,8 @@ img {
     align-items: center;
 }
 
-.resources-page .color-dots {
+.resources-page .color-dots,
+.programs-page .color-dots {
     width: 60%;
     max-width: 215px; 
 }
@@ -454,20 +493,21 @@ footer ul li a, footer a {
 
 /* Start 340 Min Width Media Query */
 @media (min-width: 340px) {
-    .resources-intro h1 {
+    .resources-intro h1,
+    .programs-intro h1 {
         font-size: 2.2rem;
     }
 
-    .resources-intro p {
+    .programs-intro p {
         font-size: 1.1rem;
     }
 
-    .resource-section-intro h2 {
+    .program-section-intro h2 {
         font-size: 1.5rem;
         padding: 20px 0 15px;
     }
 
-    .-page article div {
+    .resources-page article div {
         padding: 22px 24px;
     }
 
@@ -483,7 +523,8 @@ footer ul li a, footer a {
 /* End 340 Min Width Media Query */
 /* Start 500 Min Width Media Query */
 @media (min-width: 500px) {
-    .resource-section-intro h2 {
+    .resource-section-intro h2,
+    .programs-section-intro h2 {
         font-size: 1.9rem;
         padding: 20px 0 15px;
     }
@@ -512,12 +553,14 @@ footer ul li a, footer a {
 /* End 500 Min Width Media Query */
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
-    .resources-page .white-box {
+    .resources-page .white-box,
+    .programs-page .white-box {
         width: 90%;
         padding-bottom: 40px;
         margin-bottom: 80px;
     }
-    .resources-intro {
+    .resources-intro,
+    .programs-intro {
         padding: 0 5%;
     }
 }
@@ -531,21 +574,25 @@ footer ul li a, footer a {
         justify-content: space-between;
     }
 
-    .resource-section-intro {
+    .resource-section-intro,
+    .program-section-intro {
         flex-direction: row;
         justify-content: space-between;
         padding-top: 15px;
     }
 
-    .resources-page section {
+    .resources-page section,
+    .programs-page section {
         padding: 12px;
     }
 
-    .resources-page .resources-intro {
+    .resources-page .resources-intro,
+    .programs-page .programs-intro {
         padding: 0 5%;
     }
 
-    .resources-page .color-dots {
+    .resources-page .color-dots,
+    .programs-page .color-dots {
         width: 175px; 
     }
 
@@ -554,19 +601,23 @@ footer ul li a, footer a {
         width: 46%;
     }
 
-    .resources-intro h1 {
+    .resources-intro h1,
+    .programs-intro h1 {
         font-size: 2.8rem;
     }
 
-    .resources-intro p {
+    .resources-intro p,
+    .programs-intro p {
         font-size: 1.3rem;
     }
 
-    .resource-section-intro {
+    .resource-section-intro,
+    .program-section-intro {
         width: 96%;
     }
 
-    .resource-section-intro h2 {
+    .resource-section-intro h2,
+    .program-section-intro h2 {
         font-size: 1.9rem;
         padding: 20px 0 15px;
     }
