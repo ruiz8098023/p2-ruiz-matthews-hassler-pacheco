@@ -313,11 +313,6 @@ Purple - #CC66FF */
     margin: auto;
 }
 
-.resources-page .white-box,
-.programs-page .white-box {
-    max-width: 1500px;
-}
-
 .resources-page main,
 .programs-page main,
 .volunteer main {
