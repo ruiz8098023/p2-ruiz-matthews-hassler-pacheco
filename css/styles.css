@@ -186,10 +186,6 @@ header img, footer img {
     padding: 5%;
 }
 
-.about-section h2 {
-    padding: 20px 0;
-}
-
 .about-section img {
     border-radius: 20px;
     width: 100%;
@@ -224,27 +220,26 @@ header img, footer img {
     background-color: #6AD163;
     border-radius: 20px;
     margin: 5%;
-    padding: 5%;
+    padding: 10%;
     text-align: center;
 }
 
 .people {
-    text-align: center;
     display: flex;
     flex-flow: row wrap;
+    text-align: center;
     justify-content: center;
 }
 
 
 .people-profile {
     text-align: center;
+    width: 100%;
     max-width: 50%;
-    text-align: center;
 }
 
 .people-profile img {
-    width: 100%;
-    max-width: 140px;
+    max-width: 70px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -254,14 +249,14 @@ header img, footer img {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 .people-profile p:last-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 
@@ -312,7 +307,8 @@ Purple - #CC66FF */
 /********************** Resources Page **********************/
 
 .resources-page main,
-.programs-page main {
+.programs-page main,
+.volunteer main {
     padding: 40px 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -321,12 +317,15 @@ Purple - #CC66FF */
 }
 
 .resources-intro,
-.programs-intro {
+.programs-intro,
+.volunteer-intro {
     padding: 0 3%;
 }
 
 .resources-intro h1,
-.programs-intro h1 {
+.programs-intro h1,
+.volunteer-intro h1
+ {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     font-size: 1.9rem;
@@ -334,14 +333,16 @@ Purple - #CC66FF */
 }
 
 .resources-intro p,
-.programs-intro p {
+.programs-intro p,
+.volunteer-intro p {
     color: #807684;
     font-weight: 400;
     font-size: 1rem;
 }
 
 .resources-page .white-box,
-.programs-page .white-box {
+.programs-page .white-box,
+.volunteer .white-box {
     background-color: #FFFFFF;
     width: 94%;
     border-radius: 20px;
@@ -349,7 +350,8 @@ Purple - #CC66FF */
 }
 
 .resource-section-intro,
-.program-section-intro  {
+.program-section-intro,
+.volunteer-section-intro  {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -359,7 +361,8 @@ Purple - #CC66FF */
 }
 
 .resource-section-intro h2,
-.program-section-intro h2 {
+.program-section-intro h2,
+.volunteer-section-intro h2 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -368,7 +371,8 @@ Purple - #CC66FF */
     padding: 20px 0 15px;
 }
 
-.resource-container {
+.resource-container,
+.volunteer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,19 +392,22 @@ Purple - #CC66FF */
     padding-bottom: 10px;
 }
 
-.resources-page article {
+.resources-page article,
+.volunteer article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .resources-page .color-dots,
-.programs-page .color-dots {
+.programs-page .color-dots,
+.volunteer .color-dots {
     width: 60%;
     max-width: 215px; 
 }
 
-.resources-page article img {
+.resources-page article img,
+.volunteer article img {
     width: 100%;
     max-width: 450px;
     border-radius: 20px;
@@ -424,7 +431,8 @@ Purple - #CC66FF */
     background-color: #0087DF;
 }
 
-.resources-page article {
+.resources-page article,
+.volunteer article {
     position: relative;
     overflow: hidden;
     width: 94%;
@@ -433,12 +441,14 @@ Purple - #CC66FF */
     margin: 18px 0;
 }
 
-.resources-page article div {
+.resources-page article div,
+.volunteer article div {
     position: absolute;
     padding: 16px 18px;
   }
 
-.resources-page article div button {
+.resources-page article div button,
+.volunteer article div button {
     border: none;
     color: #FFFFFF;
     background-color: #2C292D;
@@ -523,21 +533,24 @@ footer ul li a, footer a {
     }
 
     .program-section-intro h2,
-    .program-section-intro h2 {
+    .volunteer-section-intro h2 {
         font-size: 1.5rem;
         padding: 20px 0 15px;
     }
 
-    .resources-page article div {
+    .resources-page article div,
+     .volunteer article div {
         padding: 22px 24px;
     }
 
-    .resources-page article div h3 {
+    .resources-page article div h3,
+    .volunteer article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources-page article div p {
+    .resources-page article div p,
+    .volunteer article div p {
         font-size: 1rem;
     }
 }
@@ -545,27 +558,32 @@ footer ul li a, footer a {
 /* Start 500 Min Width Media Query */
 @media (min-width: 500px) {
     .resource-section-intro h2,
-    .programs-section-intro h2 {
+    .programs-section-intro h2,
+    .volunteer-section-intro h2 {
         font-size: 1.9rem;
         padding: 20px 0 15px;
     }
 
-    .resources-page article div {
+    .resources-page article div,
+    .volunteer article div {
         padding: 32px 34px;
       }
 
-    .resources-page article div h3 {
+    .resources-page article div h3,
+    .volunteer article div h3 {
         font-size: 1.5rem;
         line-height: 1.8rem;
         padding-bottom: 15px;
     }
 
-    .resources-page article div p {
+    .resources-page article div p, 
+    .volunteer article div p{
         font-size: 1.05rem;
         padding-bottom: 15px;
     }
 
-    .resources-page article div button {
+    .resources-page article div button,
+    .volunteer article div button {
         padding: 15px 0;
         font-size: 1.3rem;
         width: 170px
@@ -575,13 +593,15 @@ footer ul li a, footer a {
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
     .resources-page .white-box,
-    .programs-page .white-box {
+    .programs-page .white-box,
+    .volunteer .white-box {
         width: 90%;
         padding-bottom: 40px;
         margin-bottom: 80px;
     }
     .resources-intro,
-    .programs-intro {
+    .programs-intro,
+    .volunteer {
         padding: 0 5%;
     }
 
@@ -592,7 +612,8 @@ footer ul li a, footer a {
 
 /* Start 860 Min Width Media Query */
 @media (min-width: 860px) {
-    .resource-container, .volunteer-container {
+    .resource-container, 
+    .volunteer-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -608,21 +629,24 @@ footer ul li a, footer a {
 
     .resources-page section,
     .programs-page section,
-     {
+    .volunteer section {
         padding: 12px;
     }
 
     .resources-page .resources-intro,
-    .programs-page .programs-intro {
+    .programs-page .programs-intro,
+    .volunteer .volunteer-intro {
         padding: 0 5%;
     }
 
     .resources-page .color-dots,
-    .programs-page .color-dots {
+    .programs-page .color-dots,
+    .volunteer .color-dots {
         width: 175px; 
     }
 
-    .resources-page article {
+    .resources-page article,
+    .volunteer article {
         margin: 2%;
         width: 46%;
     }
@@ -652,16 +676,19 @@ footer ul li a, footer a {
         padding: 20px 0 15px;
     }
 
-    .resources-page article div {
+    .resources-page article div,
+    .volunteer article div {
         padding: 22px 24px;
     }
 
-    .resources-page article div h3 {
+    .resources-page article div h3,
+    .volunteer article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
     }
 
-    .resources-page article div p, {
+    .resources-page article div p,
+    .volunteer article div p {
         font-size: 1rem;
     }
 }
@@ -795,9 +822,61 @@ footer ul li a, footer a {
     }
 
 
+    /**** About Page - Desktop View ****/
+
+    .about-section:first-child {
+        background-color: white;
+        border-radius: 10px;
+        margin: 5%;
+        padding: 5%;
+        display: flex;
+    }
+
+    .about-section:first-child img {
+        border-radius: 20px;
+        padding: 15px;
+        width: 45%;
+    }
+
+    .our-mission div {
+        width: 50%;
+        padding: 100px 0;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
     
+    .people-profile img {
+        max-width: 175px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .people-profile {
+        text-align: center;
+        width: 100%;
+        max-width: 25%;
+    }
+
+    /**** Programs ****/
+    .programs-page {
+        background-color: #EDEDEF;
+    }
+
 
     /**** Footer ****/
+    .programs-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      
     .flex-container {
         display: flex;
         justify-content: center;
@@ -840,83 +919,32 @@ footer ul li a, footer a {
 
 /* Start 1060 Min Width Media Query */
 @media (min-width: 1060px) {
-
-    /**** About Page - Desktop View ****/
-
-    .about-section:first-child {
-        background-color: white;
-        border-radius: 10px;
-        margin: 5%;
-        padding: 5%;
-        display: flex;
-        align-items: center;
-    }
-
-    .about-section:first-child img {
-        border-radius: 20px;
-        width: 50%;
-        height:fit-content;
-    }
-
-    .our-mission {
-        width: 40%;
-        padding: 0 0 0 30px;
-    }
-
-    .our-mission p {
-        font-size: 0.9em;
-    }
-    
-    .people-profile {
-        text-align: center;
-        width: 100%;
-        max-width: 25%;
-        padding: 0 5px;
-    }
-
-    .people-profile img {
-        max-width: 300px;
-        margin: 10px;
-        padding: 5px;
-        border-radius: 10px;
-    }
-
-
-    .people-profile p:first-of-type {
-        font-size: 0.7em;
-    }
-    
-    .people-profile p:last-of-type {
-        font-size: 0.6em;
-    }
-    
-    
-   
-
-
-    /**** Resources Page - Desktop View ****/
-
-    .resources-page article {
+    .resources-page article,
+    .volunteer article {
         margin: 1.5%;
         width: 30%;
     }
 
-    .resources-page article div {
+    .resources-page article div,
+    .volunteer article div {
         padding: 17px 19px;
     }
 
-    .resources-page article div h3 {
+    .resources-page article div h3, 
+    .volunteer article div h3 {
         font-size: 1.3rem;
         line-height: 1.7rem;
         padding-bottom: 6px;
     }
 
-    .resources-page article div p {
+    .resources-page article div p,
+    .volunteer article div p {
         font-size: .9rem;
         padding-bottom: 7px;
     }
 
-    .resources-page article div button {
+    .resources-page article div button,
+    .volunteer article div button {
         padding: 10px 0;
         font-size: 1.2rem;
         width: 150px
