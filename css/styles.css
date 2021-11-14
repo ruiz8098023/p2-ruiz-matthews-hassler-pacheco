@@ -305,10 +305,12 @@ Purple - #CC66FF */
 /********************** Programs Page **********************/
 
 /********************** Resources Page **********************/
-
 .resources-page .white-box,
-.programs-page .white-box {
+.programs-page .white-box,
+.resources-intro,
+.programs-intro {
     max-width: 1500px;
+    margin: auto;
 }
 
 .resources-page main,
