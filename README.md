@@ -1,4 +1,5 @@
 ## Issues
+Trouble with styling and alignment.
 
 ## Resources
 
@@ -14,10 +15,12 @@
 
 ### Git
 * [Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
+* [Going Back to a Previous Commit](https://medium.com/swlh/using-git-how-to-go-back-to-a-previous-commit-8579ccc8180f)
 
 ### JavaScript
-* [Vanilla JS: Hamburger Menu](https://codepen.io/AlHakem/pen/pKoEYp)
-* [Vanilla JS: Pop-up Box](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Hamburger Menu](https://codepen.io/AlHakem/pen/pKoEYp)
+* [Pop-up Box](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Read More/Read Less Button](https://www.w3schools.com/howto/howto_js_read_more.asp)
 
 ### Misc.
 * [Hex to RGB Color Converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
