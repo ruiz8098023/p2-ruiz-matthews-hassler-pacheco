@@ -25,7 +25,6 @@
 * [Pop-up Box](https://www.w3schools.com/howto/howto_css_modals.asp)
 * [Read More/Read Less Button](https://www.w3schools.com/howto/howto_js_read_more.asp)
 * [Declare JavaScript Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-javascript-variables)
-)
 
 ### Misc.
 * [Hex to RGB Color Converter](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
