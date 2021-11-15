@@ -184,23 +184,27 @@ header img, footer img {
     border-radius: 20px;
     margin: 5%;
     padding: 5%;
-}
-
-.about-section img {
+    }
+    
+    .about-section h2 {
+    padding: 20px 0;
+    }
+    
+    .about-section img {
     border-radius: 20px;
     width: 100%;
-}
-
-.history {
+    }
+    
+    .history {
     text-align: center;
     color: white;
     background-color: #CC66FF;
     border-radius: 20px;
     margin: 5%;
     padding: 10%;
-}
-
-#readBtn {
+    }
+    
+    #readBtn {
     background-color: #0087DF;
     margin: 30px;
     font-family: niveau-grotesk, sans-serif;
@@ -209,73 +213,72 @@ header img, footer img {
     font-size: 20px;
     padding: 10px;
     border-radius: 8px;
-}
-
-#more {
+    }
+    
+    #more {
     display: none;
-}
-
-.who-we-are {
+    }
+    
+    .who-we-are {
     color: white;
     background-color: #6AD163;
     border-radius: 20px;
     margin: 5%;
-    padding: 10%;
+    padding: 6% 3%;
     text-align: center;
-}
-
-.people {
+    }
+    
+    .people {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
     justify-content: center;
-}
-
-
-.people-profile {
+    }
+    
+    
+    .people-profile {
     text-align: center;
     width: 100%;
     max-width: 50%;
-}
-
-.people-profile img {
-    max-width: 70px;
-    margin: 10px;
+    }
+    
+    .people-profile img {
+    max-width: 145px;
+    margin: 5px;
+    padding: 5px;
     border-radius: 10px;
-}
-
-
-.people-profile p:first-of-type {
+    }
+    
+    
+    .people-profile p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.5em;
-}
-
-.people-profile p:last-of-type {
+    font-size: 0.7em;
+    }
+    
+    .people-profile p:last-of-type {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.5em;
-}
-
-
-.goals {
+    font-size: 0.6em;
+    }
+    
+    
+    .goals {
     color: white;
     background-color: #0087DF;
     border-radius: 20px;
     margin: 5%;
     padding: 10%;
-}
-
-.goals img {
+    }
+    
+    .goals img {
     width: 100%;
     margin: 5% 0;
-}
+    }
 
 /********************** Programs Page **********************/
-/* Blue - #0087DF
-Purple - #CC66FF */
 .activity-content {
     text-align: center;
     padding: 20px 0;
