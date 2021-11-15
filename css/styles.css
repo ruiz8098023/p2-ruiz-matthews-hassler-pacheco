@@ -622,7 +622,13 @@ footer ul li a, footer a {
     /* ABOUT PAGE QUERY COULD GO HERE... */
 }
 /* End 630 Min Width Media Query */
-
+@media (max-width: 860px){
+    .volunteer-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 /* Start 860 Min Width Media Query */
 @media (min-width: 860px) {
     .resource-container {
@@ -630,6 +636,7 @@ footer ul li a, footer a {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
 
     .resource-section-intro,
     .program-section-intro,
@@ -1173,14 +1180,7 @@ footer ul li a, footer a {
     padding: 20px 0 15px;
 }
 
-.volunteer-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 18px 0;
-    color: #FFFFFF;
-    justify-content: space-around;
-}
+
 
 .volunteer-container h3 {
     font-weight: 700;
@@ -1314,7 +1314,7 @@ footer ul li a, footer a {
     align-items: center;
     padding: 18px 0;
     color: #FFFFFF;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .volunteer-container h3 {
