@@ -612,12 +612,19 @@ footer ul li a, footer a {
         padding-bottom: 40px;
         margin-bottom: 80px;
     }
+    .dark-box{
+        width: 90%;
+    }
     .resources-intro,
     .programs-intro,
     .volunteer {
         padding: 0 5%;
     }
 
+    .resources-page main,
+    .volunteer-intro{
+        padding: 0 5%;
+    }
 
     /* ABOUT PAGE QUERY COULD GO HERE... */
 }
