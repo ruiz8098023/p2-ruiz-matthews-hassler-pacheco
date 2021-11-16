@@ -605,6 +605,10 @@ footer ul li a, footer a {
 /* End 500 Min Width Media Query */
 /* Start 630 Min Width Media Query */
 @media (min-width: 630px) {
+    .home-page, .resources-page {
+        background-color: #EDEDEF;
+    }
+    
     .resources-page .white-box,
     .programs-page .white-box,
     .volunteer .white-box {
@@ -624,7 +628,11 @@ footer ul li a, footer a {
         padding: 0 5%;
     }
 
-    /* ABOUT PAGE QUERY COULD GO HERE... */
+    .resources-page h1 {
+        padding-top: 50px;
+    }
+
+    
 }
 /* End 630 Min Width Media Query */
 @media (max-width: 860px){
@@ -1151,7 +1159,6 @@ footer ul li a, footer a {
 .volunteer-intro h1 {
     font-family: niveau-grotesk, sans-serif;
     font-weight: 900;
-    font-size: 1.9rem;
     padding-bottom: 10px;
 }
 
@@ -1273,13 +1280,6 @@ footer ul li a, footer a {
 }
 
 
-
-.volunteer-intro h1 {
-    font-family: niveau-grotesk, sans-serif;
-    font-weight: 900;
-    font-size: 1.9rem;
-    padding-bottom: 10px;
-}
 
 .volunteer-intro p {
     color: #807684;
